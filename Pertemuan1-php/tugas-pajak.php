@@ -3,6 +3,7 @@
 $gaji = 13000000;
 $status = "kontrak";
 
+// =Logic nya============
 if ($gaji >= 15000000  ) {
     $pajak = 20;
 } elseif ( $gaji >= 10000000 && $gaji <= 15000000  ) {
@@ -19,6 +20,7 @@ if ($status == "tetap") {
     $pajak = $pajak + 0;
 }
 
+// rumus=======
 $persenan = $pajak / 100 ;
 $potongan = $gaji * $persenan;
 $gaji_bersih = $gaji - $potongan;
