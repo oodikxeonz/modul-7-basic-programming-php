@@ -47,7 +47,7 @@
 
     ?>
 
-  <body class="bg-stone-100 flex items-center justify-center min-h-screen">
+  <body class="bg-pink-100 flex items-center justify-center min-h-screen">
     
 
     <div class="bapak grid grid-cols-2 ">
@@ -96,7 +96,7 @@
         </form>
     </div>
     
-    <div class="bg-white p-8 rounded-lg shadow-lg w-129 h-42 ">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-129 h-62 ">
     <h2 class="text-2xl font-semibold mb-5 text-center">Hasil Penilaian</h2>
     <table class="w-full border-collapse border border-gray-400 ..." >
     
@@ -112,7 +112,7 @@
   </thead>
   <tbody>
     <tr>
-      <td class="border border-gray-300 ... pl-5 pr-5" ><?php echo $Namas; ?></td>
+      <td class="border border-gray-300 ... pl-5 pr-5 pt-2 pb-3" ><?php echo $Namas; ?></td>
       <td class="border border-gray-300 ... pl-5 pr-5" ><?php echo $Nit; ?></td>
       <td class="border border-gray-300 ... pl-5 pr-5" ><?php echo $Niu; ?></td>
       <td class="border border-gray-300 ... pl-5 pr-5" ><?php echo $Niua; ?></td>
